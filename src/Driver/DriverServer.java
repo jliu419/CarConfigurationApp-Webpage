@@ -13,7 +13,7 @@ public class DriverServer {
 	
 	public DriverServer ()
 	{
-		
+		// LinkedList
 	}
 	
 	private void Lab1()

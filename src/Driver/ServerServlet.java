@@ -48,7 +48,7 @@ public class ServerServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {		
 		DriverServer ds = new DriverServer();
 		ds.Lab3();
-
+		
 		RequestDispatcher dispatcher = request.getRequestDispatcher("Homepage.jsp"); 
 		dispatcher.forward(request, response);
 	}

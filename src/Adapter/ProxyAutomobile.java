@@ -75,12 +75,14 @@ public abstract class ProxyAutomobile {
 		}
 	}
 	
-	public void fix(int errorno, String errormessage, AutoException e)
+/*
+ * 	public void fix(int errorno, String errormessage, AutoException e)
+
 	{
 		e.setErrormsg(errormessage);
 		e.setErrorno(errorno);
 		e.fix(errorno);
-	}
+	}*/
 	
 	public void EditName(String modelname, String optionsetname, String optionname, String newname) {
 		

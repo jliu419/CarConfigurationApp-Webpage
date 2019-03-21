@@ -29,6 +29,11 @@
 
 		out.println("Total Price:   " + totalprice); 
 	%>
+	
+	<form method = GET action="http://localhost:14238/CarConfigurationAppServer/Homepage.jsp">
+		<input type= "submit" name="Back" value="Back">
+	</form>
+	
 	</body>
 
 </html>

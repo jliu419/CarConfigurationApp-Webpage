@@ -13,9 +13,7 @@ public class Automotive<T extends Catagory> implements Serializable {
 	private String make; 
 	private int baseprice; 
 	private ArrayList<OptionSet> property;  
-	private ArrayList<Option> choice; 
-	private T catagory; 
-	
+	private ArrayList<Option> choice; 	
 	
 	//////////////// CONSTRUCTORS /////////////////////
 	public Automotive (String name, int baseprice)

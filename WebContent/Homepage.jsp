@@ -8,13 +8,14 @@
 	</head>
 
 	<body>
-		<form method=GET action=http://localhost:14238/CarConfigurationAppServer/SelectModel.jsp>
+		<form method=GET action="http://localhost:14238/CarConfigurationAppServer/User/SelectModel.jsp">
 			Basic Car Choice 
 				<p>
 				Make/Model: <input type=text name=name> 
 			<br>
 				<input type="submit" name="Submit Automotive"/> 
 			<br>   
-					</form> 
+				<a href="VIPClients/LogIn.jsp">Add Automotives</a>
+		</form> 
 		</body>
 </html>
